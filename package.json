@@ -4,8 +4,8 @@
   "description": "MicroChat policy and documentation pages",
   "type": "module",
   "scripts": {
-    "build": "eleventy",
-    "serve": "eleventy --serve --port 8080"
+    "build": "NODE_OPTIONS=--no-deprecation eleventy",
+    "serve": "NODE_OPTIONS=--no-deprecation eleventy --serve --port 8080"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
