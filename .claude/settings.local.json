@@ -12,7 +12,16 @@
       "Read(//opt/local/bin/**)",
       "Bash(/opt/local/bin/node --version)",
       "Bash(git init *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git rm *)",
+      "Bash(git reset *)",
+      "Bash(git restore *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git remote *)",
+      "Bash(find /opt/local/bin /usr/local/bin /opt/homebrew/bin -name \"gh\" 2>/dev/null; find /Users/brian -name \"gh\" -type f 2>/dev/null | grep -v \".cache\" | head -3)",
+      "Bash(ssh -T git@github.com)",
+      "Bash(ssh-keyscan github.com)",
+      "Bash(git config *)"
     ]
   }
 }
