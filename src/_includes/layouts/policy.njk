@@ -1,0 +1,28 @@
+---
+layout: layouts/base.njk
+---
+
+<article class="policy-page">
+  <div class="container">
+
+    <header class="policy-header">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Policies</a>
+        <span aria-hidden="true"> / </span>
+        <span aria-current="page">{{ title }}</span>
+      </nav>
+      <h1>{{ title }}</h1>
+      {% if description %}
+        <p class="policy-description">{{ description }}</p>
+      {% endif %}
+      {% if lastUpdated %}
+        <p class="policy-meta">Last updated: <time datetime="{{ lastUpdated }}">{{ lastUpdated | readableDate }}</time></p>
+      {% endif %}
+    </header>
+
+    <div class="policy-body prose">
+      {{ content | safe }}
+    </div>
+
+  </div>
+</article>

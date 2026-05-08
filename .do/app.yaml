@@ -1,0 +1,14 @@
+name: microchat-docs
+region: nyc
+
+static_sites:
+  - name: policy-docs
+    github:
+      repo: Forward-Education/ai-microchat-docs
+      branch: main
+      deploy_on_push: true
+    build_command: npm install && npm run build
+    output_dir: _site
+    environment_slug: node-js
+    routes:
+      - path: /

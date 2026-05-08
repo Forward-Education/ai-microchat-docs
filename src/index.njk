@@ -1,0 +1,33 @@
+---
+layout: layouts/base.njk
+title: Policies
+description: Legal and policy documents for the MicroChat platform.
+permalink: /
+---
+
+<section class="policy-index">
+  <div class="container">
+
+    <header class="page-header">
+      <h1>Policy Documents</h1>
+      <p>Legal and policy documents governing the use of MicroChat.</p>
+    </header>
+
+    <ul class="policy-list">
+      {% for policy in collections.policies %}
+      <li class="policy-card">
+        <a href="{{ policy.url }}">
+          <h2>{{ policy.data.title }}</h2>
+          {% if policy.data.description %}
+            <p>{{ policy.data.description }}</p>
+          {% endif %}
+          {% if policy.data.lastUpdated %}
+            <span class="policy-card-date">Updated {{ policy.data.lastUpdated | readableDate }}</span>
+          {% endif %}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+
+  </div>
+</section>

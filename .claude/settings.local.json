@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(export PATH=\"/usr/local/bin:/opt/homebrew/bin:$PATH\")",
+      "Bash(npm --version)",
+      "Bash(find /usr/local /opt/homebrew ~/.nvm ~/.volta /usr -name \"npm\" -type f 2>/dev/null | head -5)",
+      "Read(//Users/brian/.nvm/versions/**)",
+      "Read(//Users/brian/.volta/**)",
+      "Bash(command -v node)",
+      "Bash(ls /Users/brian/.nvm/versions/node/ 2>/dev/null; ls /Users/brian/.volta/ 2>/dev/null; find /Users/brian -name \"node\" -type f 2>/dev/null | head -3)",
+      "Read(//opt/local/bin/**)",
+      "Bash(/opt/local/bin/node --version)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}

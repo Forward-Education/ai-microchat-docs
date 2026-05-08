@@ -1,0 +1,14 @@
+{
+  "name": "microchat-docs",
+  "version": "1.0.0",
+  "description": "MicroChat policy and documentation pages",
+  "type": "module",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve --port 8080"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "markdown-it-anchor": "^9.0.1"
+  }
+}
