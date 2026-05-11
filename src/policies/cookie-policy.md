@@ -54,4 +54,4 @@ We may update this Cookie Policy from time to time. Changes will be reflected by
 If you have questions about our use of cookies, please contact us at:
 
 **Forward Education Inc.**
-[privacy@microchat.co](mailto:privacy@microchat.co)
+[policy@forwardedu.com](mailto:policy@forwardedu.com)

@@ -67,4 +67,4 @@ We may revise these Terms at any time. We will provide notice of significant cha
 If you have questions about these Terms and Conditions, please contact us at:
 
 **Forward Education Inc.**
-[legal@microchat.co](mailto:legal@microchat.co)
+[policy@forwardedu.com](mailto:policy@forwardedu.com)

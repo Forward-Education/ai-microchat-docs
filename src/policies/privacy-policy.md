@@ -87,4 +87,4 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 If you have questions about this Privacy Policy, please contact us at:
 
 **Forward Education Inc.**
-[privacy@microchat.co](mailto:privacy@microchat.co)
+[policy@forwardedu.com](mailto:policy@forwardedu.com)

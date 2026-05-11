@@ -71,4 +71,4 @@ We may update this Acceptable Use Policy from time to time. Continued use of the
 For questions about this policy, contact us at:
 
 **Forward Education Inc.**
-[support@microchat.co](mailto:support@microchat.co)
+[policy@forwardedu.com](policy@forwardedu.com)
