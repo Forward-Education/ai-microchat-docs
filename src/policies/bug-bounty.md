@@ -1,7 +1,8 @@
-# 🔐 MicroChat Security & Bug Bounty Program
-
-**microchat.co** | Operated by [Forward Education](https://forwardedu.com)
-
+---
+title: Security & Bug Bounty Program
+description: How to report security vulnerabilities in MicroChat and our responsible disclosure policy.
+lastUpdated: 2026-06-04
+permalink: /bug-bounty/
 ---
 
 ## Our Commitment
@@ -141,9 +142,3 @@ Forward Education will not initiate legal action against security researchers wh
 - Report the issue to us before any public disclosure
 
 This safe harbor applies under Canadian law and is offered in good faith. We reserve the right to modify this program at any time.
-
----
-
-*Last updated: June 2026*
-*Forward Education*
-*[forwardedu.com](https://forwardedu.com) | [microchat.co](https://microchat.co)*

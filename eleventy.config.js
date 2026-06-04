@@ -17,7 +17,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addCollection("policies", function (collectionApi) {
     return collectionApi
       .getFilteredByTag("policies")
-      .sort((a, b) => a.data.title.localeCompare(b.data.title));
+      .sort((a, b) => (a.data.title || "").localeCompare(b.data.title || ""));
   });
 
   eleventyConfig.addFilter("readableDate", (dateObj) => {
