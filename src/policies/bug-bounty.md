@@ -93,7 +93,7 @@ We commit to:
 
 Send your report to:
 
-📧 **devops@microchat.co**
+📧 **devops@forwardedu.com**
 
 ### What to Include
 
