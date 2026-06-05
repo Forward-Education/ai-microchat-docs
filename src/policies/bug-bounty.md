@@ -7,7 +7,7 @@ permalink: /bug-bounty/
 
 ## Our Commitment
 
-MicroChat is a communication and learning platform built for K–12 students and educators. The safety and privacy of young learners is our highest priority. We take security vulnerabilities seriously and appreciate the work of researchers who help us keep our platform safe.
+MicroChat is an AI learning platform built for K–12 students and educators. The safety and privacy of young learners is our highest priority. We take security vulnerabilities seriously and appreciate the work of researchers who help us keep our platform safe.
 
 If you've discovered a potential security issue, we want to hear from you.
 
