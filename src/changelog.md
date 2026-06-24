@@ -2,11 +2,21 @@
 layout: layouts/changelog.njk
 title: Changelog
 description: Notable changes, improvements, and fixes to MicroChat.
-lastUpdated: 2026-06-16
+lastUpdated: 2026-06-24
 permalink: /changelog/
 ---
 
 All notable changes to MicroChat are documented here. The most recent updates appear first.
+
+## 2026-06-24 - Version 1.4.7
+
+### Added
+
+- Improved makecode compilation handling
+- Refined AI system prompt
+- Fixed "new conversation" button not working
+- Improved error handling
+- Security fixes
 
 ## 2026-06-16 - Version 1.4.5
 
