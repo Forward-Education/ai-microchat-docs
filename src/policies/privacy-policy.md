@@ -100,12 +100,11 @@ We do not sell personal information. We share information only as needed to oper
 
   | Vendor | Service provided | Data location |
   |---|---|---|
-  | [DigitalOcean] | Application and database hosting | [Canada] |
-  | [Sendgrid] | Transactional email and notifications | [USA] |
-  | [OVH] | Error logging and uptime monitoring | [Canada] |
-  | [Anthropic] | AI chat responses | [Canada and Worldwide] |
-
-  > **Editor's note:** Replace the rows above with MicroChat's actual sub-processors and their hosting regions before publishing.
+  | DigitalOcean | Application and database hosting | Canada |
+  | Sendgrid | Transactional email and notifications | [USA |
+  | OVH | Error logging and uptime monitoring | Canada |
+  | Stripe | Payment processing | USA |
+  | Anthropic | AI chat responses | Canada and Worldwide |
 
 - **Legal authorities** when required by law or to protect rights and safety.
 - **Business transfers** in connection with a merger, acquisition, or sale of assets — subject to the protections in this policy.
