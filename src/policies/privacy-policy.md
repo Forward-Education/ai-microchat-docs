@@ -1,13 +1,13 @@
 ---
 title: Privacy Policy
 description: How MicroChat collects, uses, and protects your personal information.
-lastUpdated: 2026-06-04
+lastUpdated: 2026-07-09
 permalink: /privacy-policy/
 ---
 
 ## Introduction
 
-MicroChat ("we", "us", or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, store, and safeguard your information when you use our service at app.microchat.co.
+MicroChat and Forward Education ("we", "us", or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, store, and safeguard your information when you use our service at app.microchat.co.
 
 MicroChat is built for K–12 educational settings. Where MicroChat is used by a school, school board, or other educational institution (a "School"), that institution is the entity responsible for the personal information of its students and staff. We act as a service provider (processor) on the School's behalf and under its direction. See [Roles and Responsibilities](#roles-and-responsibilities) below.
 
@@ -100,9 +100,10 @@ We do not sell personal information. We share information only as needed to oper
 
   | Vendor | Service provided | Data location |
   |---|---|---|
-  | [Cloud hosting provider — e.g. DigitalOcean] | Application and database hosting | [Region — e.g. Canada] |
-  | [Email/notification provider] | Transactional email and notifications | [Region] |
-  | [Error/monitoring provider] | Error logging and uptime monitoring | [Region] |
+  | [DigitalOcean] | Application and database hosting | [Canada] |
+  | [Sendgrid] | Transactional email and notifications | [USA] |
+  | [OVH] | Error logging and uptime monitoring | [Canada] |
+  | [Anthropic] | AI chat responses | [Canada and Worldwide] |
 
   > **Editor's note:** Replace the rows above with MicroChat's actual sub-processors and their hosting regions before publishing.
 
@@ -113,9 +114,9 @@ All sub-processors are bound by written agreements requiring them to protect per
 
 ## Where Your Data Is Stored
 
-MicroChat stores personal information on servers located in **[Canada / specify region]**.
+MicroChat stores personal teacher/educator information on servers located in **Canada**.  Student data is not gathered or stored, and all chat data is anonymized via a PII inspector.
 
-[If any data is processed or stored outside Canada — for example by a sub-processor — name the country and the safeguards in place. If all data stays in Canada, state that explicitly and remove this sentence.]
+Data is processed outside of Canada, however that data is anonymized by our PII anonymizer service.
 
 Where a School requires that all data remain within Canada, we will honour that requirement as set out in our agreement with the School.
 
@@ -124,10 +125,10 @@ Where a School requires that all data remain within Canada, we will honour that 
 We retain personal information only as long as necessary for the purposes described in this policy, or as directed by the School.
 
 - **Active accounts:** Retained for the duration of the user's enrolment or employment with the School.
-- **Inactive accounts:** Deleted or anonymized within **[e.g. 12 months]** of an account becoming inactive, unless the School directs otherwise.
-- **Message and content data:** Retained for **[e.g. the current school year plus 30 days]**, unless a longer or shorter period is set by the School.
-- **Backups and logs:** Purged on a rolling **[e.g. 30–90 day]** cycle.
-- **Board-controlled retention:** A School may set its own retention schedule, request export of its data, or request deletion at any time. On termination of service, we delete or return the School's data within **[e.g. 30 days]**.
+- **Inactive accounts:** Deleted or anonymized within 12 months of an account becoming inactive, unless the School or local law directs otherwise.
+- **Message and content data:** Retained for 5 years, unless a longer or shorter period is set by the School or local laws.
+- **Backups and logs:** Purged on a rolling 365 day cycle.
+- **Board-controlled retention:** A School may request export of its data, or request deletion at any time. On termination of service, we delete or anonymize School's data within 90 days or a date set by local laws.
 
 ### Secure Deletion
 
@@ -140,7 +141,7 @@ We implement technical and organizational measures appropriate to the sensitivit
 - **Encryption in transit and at rest.** Data is encrypted in transit using TLS, and stored data is encrypted at rest.
 - **Role-based access controls.** Access to personal information is restricted on a least-privilege, need-to-know basis according to user and staff roles.
 - **Audit logging.** Access to and changes affecting personal information are logged and monitored.
-- **Breach notification.** If we become aware of a breach of security safeguards involving personal information, we will notify the affected School without undue delay and within **[e.g. 72 hours]** of confirming the breach, and will support the School in meeting its own notification obligations.
+- **Breach notification.** If we become aware of a breach of security safeguards involving personal information, we will notify the affected School without undue delay and within **72 hours** of confirming the breach, and will support the School in meeting its own notification obligations.
 
 No method of transmission or storage is completely secure, but we work to protect personal information using current industry practices.
 
