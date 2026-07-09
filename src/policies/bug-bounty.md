@@ -1,7 +1,7 @@
 ---
 title: Security & Bug Bounty Program
 description: How to report security vulnerabilities in MicroChat and our responsible disclosure policy.
-lastUpdated: 2026-06-04
+lastUpdated: 2026-07-09
 permalink: /bug-bounty/
 ---
 
@@ -128,7 +128,11 @@ We comply with:
 
 We recognize researchers who have made meaningful contributions to MicroChat's security.
 
-*Be the first to be listed here.*
+| Name |
+|----------|
+| Ananthu J |
+
+*Be the second to be listed here.*
 
 ---
 
