@@ -2,11 +2,33 @@
 layout: layouts/changelog.njk
 title: Changelog
 description: Notable changes, improvements, and fixes to MicroChat.
-lastUpdated: 2026-06-24
+lastUpdated: 2026-06-30
 permalink: /changelog/
 ---
 
 All notable changes to MicroChat are documented here. The most recent updates appear first.
+
+## 2026-07-24 - Version 1.5.0
+
+- Extension inclusion determined by ui toggle
+- Added security controls to backend infrastructure
+
+## 2026-07-16 - Version 1.4.9
+- Add extension infrastructure
+- Added micro:bit radio and microphone extensions as core extensions (can't be turned off)
+- Changed leave session redirect to /join instead of /login
+- Security hardening
+- Added awareness Forward Education products
+- Improvements to OTP and SSO
+- Added localization infrastructure
+- Added download link for session information table
+- Modified the welcome email
+- Added security controls
+
+## 2026-06-25 - Version 1.4.8
+- Fix to payment platform
+- Fixed data not reliably updating in sessions
+- AI prompt optimizations
 
 ## 2026-06-24 - Version 1.4.7
 
