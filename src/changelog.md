@@ -2,11 +2,18 @@
 layout: layouts/changelog.njk
 title: Changelog
 description: Notable changes, improvements, and fixes to MicroChat.
-lastUpdated: 2026-07-30
+lastUpdated: 2026-08-21
 permalink: /changelog/
 ---
 
 All notable changes to MicroChat are documented here. The most recent updates appear first.
+
+## 2026-08-21 - Version 1.7.0
+
+- Added tutorial builder beta feature
+- Added policy documents link to sidebar
+- Added starter prompt option for sessions
+- Synced blocks preview with language selection
 
 ## 2026-07-24 - Version 1.5.0
 
