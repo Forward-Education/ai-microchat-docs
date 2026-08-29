@@ -4,6 +4,8 @@ Static policy pages for [MicroChat](https://app.microchat.co), hosted at `docs.m
 
 Built with [Eleventy](https://www.11ty.dev/) and deployed automatically to [DigitalOcean App Platform](https://www.digitalocean.com/products/app-platform) on every push to `main`.
 
+For a full picture of how the site is built, structured, and deployed, see [ARCHITECTURE.md](ARCHITECTURE.md).
+
 ## Pages
 
 | Page | URL |
