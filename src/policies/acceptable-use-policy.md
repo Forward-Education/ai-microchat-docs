@@ -1,7 +1,7 @@
 ---
 title: Acceptable Use Policy
 description: Rules and guidelines for appropriate use of the MicroChat platform.
-lastUpdated: 2026-05-07
+lastUpdated: 2026-08-31
 permalink: /acceptable-use-policy/
 ---
 
@@ -49,7 +49,7 @@ The following activities are strictly prohibited:
 
 ## Reporting Violations
 
-If you observe behavior that violates this policy, please report it to your instructor or platform administrator, or contact us directly at [support@microchat.co](mailto:support@microchat.co).
+If you observe behavior that violates this policy, please report it to your instructor or platform administrator, or contact us directly at [policy@forwardedu.com](mailto:policy@forwardedu.com).
 
 ## Enforcement
 
