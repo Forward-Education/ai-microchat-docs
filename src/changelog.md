@@ -9,6 +9,17 @@ permalink: /changelog/
 
 All notable changes to MicroChat are documented here. The most recent updates appear first.
 
+## 2026-09-04 - Version 2.0.0
+
+- Added MakeCode Arcade as a supported target
+- Added a launcher page with it's own AI chat mode
+- Added changes to sidebar menu
+- Upgraded supporting AI model
+- Added back button to return to session overview when viewing session chats
+- Added language dropdown to public pages and moved it from sidebar to topbar
+- Fixed buy now button
+- Fixed numerous security issues and bugs
+
 ## 2026-08-21 - Version 1.7.0
 
 - Added tutorial builder beta feature
