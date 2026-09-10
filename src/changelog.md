@@ -2,12 +2,23 @@
 layout: layouts/changelog.njk
 title: Changelog
 description: Notable changes, improvements, and fixes to MicroChat.
-lastUpdated: 2026-08-21
+lastUpdated: 2026-09-10
 
 permalink: /changelog/
 ---
 
 All notable changes to MicroChat are documented here. The most recent updates appear first.
+
+## 2026-09-10 - Version 2.0.1
+
+- Added: A session-wide rejoin code in addition to join code and alias
+- Added: A session status panel in the sidebar
+- Added: A tour system with tours for existing features / pages
+- Added: Users can name their chats
+- Fix: Listed Tutorial Builder under apps for teachers and refined Tutorial Builder UX
+- Fix: Launcher scroll on short and narrow screens
+- Added: help links at the live help centre
+- Added: security controls to backend
 
 ## 2026-09-04 - Version 2.0.0
 
