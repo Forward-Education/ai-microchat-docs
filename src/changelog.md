@@ -2,13 +2,19 @@
 layout: layouts/changelog.njk
 title: Changelog
 description: Notable changes, improvements, and fixes to MicroChat.
-lastUpdated: 2026-09-10
+lastUpdated: 2026-09-24
 
 permalink: /changelog/
 ---
 
 All notable changes to MicroChat are documented here. The most recent updates appear first.
 
+## 2026-09-10 - Version 2.1.0
+
+- Added: Guided chats (used in email and support)
+- Added: Improved loading of code and conversations
+- Added: Various fixes, small improvements, and security fixes
+  
 ## 2026-09-10 - Version 2.0.1
 
 - Added: A session-wide rejoin code in addition to join code and alias
