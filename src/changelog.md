@@ -2,12 +2,19 @@
 layout: layouts/changelog.njk
 title: Changelog
 description: Notable changes, improvements, and fixes to MicroChat.
-lastUpdated: 2026-09-24
+lastUpdated: 2026-09-29
 
 permalink: /changelog/
 ---
 
 All notable changes to MicroChat are documented here. The most recent updates appear first.
+
+## 2026-09-29 - Version 2.1.0
+
+- Added: CodeCTRL Apps as a supported target, building display shield apps with AI in chats and sessions
+- Added: fixed session block view always using the micro:bit context and the MakeCode view breaking in sessions
+- Added: chats get an AI-generated title based on the first message
+- Added: centred the docs link in the sidebar
 
 ## 2026-09-24 - Version 2.1.0
 
