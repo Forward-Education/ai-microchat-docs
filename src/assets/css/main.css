@@ -101,6 +101,8 @@
 html {
   font-size: 100%;
   scroll-behavior: smooth;
+  /* Keep anchor targets clear of the sticky site header */
+  scroll-padding-top: var(--space-12);
 }
 
 body {
