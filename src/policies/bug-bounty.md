@@ -146,8 +146,9 @@ We recognize researchers who have made meaningful contributions to MicroChat's s
 | Name |
 |----------|
 | Ananthu J |
-
-*Be the second to be listed here.*
+| Saeful Ramadhan |
+| Vivek Rajendra Udane |
+| Soufiane El Habti |
 
 ---
 
