@@ -1,7 +1,7 @@
 ---
 title: Security & Bug Bounty Program
 description: How to report security vulnerabilities in MicroChat and our responsible disclosure policy.
-lastUpdated: 2026-07-09
+lastUpdated: 2026-10-05
 permalink: /bug-bounty/
 ---
 
@@ -17,10 +17,10 @@ If you've discovered a potential security issue, we want to hear from you.
 
 Our bug bounty program runs on a **calendar-based schedule** of two 30-day sprints each year:
 
-| Sprint | Dates |
-|--------|-------|
-| Fall | October 1 – October 30 |
-| Spring | April 1 – April 30 |
+| Sprint | Dates                  |
+| ------ | ---------------------- |
+| Fall   | October 1 – October 30 |
+| Spring | April 1 – April 30     |
 
 - **Reports and payouts are limited to these windows.** We accept submissions and issue rewards only during the Fall and Spring sprints.
 - **Critical vulnerabilities are the exception.** Reports of Critical-severity issues (see [Severity & Rewards](#severity-and-rewards)) are welcome at **any time**, in or out of a sprint. Depending on our evaluation, a Critical report submitted outside a sprint may still be eligible for a payout.
@@ -35,11 +35,13 @@ Our bug bounty program runs on a **calendar-based schedule** of two 30-day sprin
 The following assets and vulnerability types are eligible for the program:
 
 **Applications & Domains**
+
 - `microchat.co` and all subdomains
 - MicroChat web application (student and teacher interfaces)
 - Authentication and session management systems
 
 **Vulnerability Categories**
+
 - Authentication bypass or account takeover
 - Cross-Site Scripting (XSS) — stored, reflected, or DOM-based
 - Cross-Site Request Forgery (CSRF)
@@ -66,6 +68,16 @@ The following are **not** eligible for rewards and may result in disqualificatio
 - Rate limiting issues without demonstrated abuse potential
 - Automated scanner output without proof of exploitability
 - Previously reported issues
+- Behaviors listed under [Intentional Design Decisions](#intentional-design-decisions)
+
+### Intentional Design Decisions
+
+The following behaviors are deliberate tradeoffs we have assessed and accepted.
+
+- Shared Rejoin Code: All session users for a given session have the same rejoin code.
+- Session-wide Rejoin Lockout: Rejoin attempts are tallied across the session. A single session user can trigger a rejoin lockout for the whole session.
+- Non-random Alias List: The alias list for a session is always generated in the same order.
+- Failed Login Insight: It's possible to determine whether an account exists and which login method it uses (Google, Microsoft, or OTP).
 
 ---
 
@@ -73,12 +85,12 @@ The following are **not** eligible for rewards and may result in disqualificatio
 
 We evaluate vulnerabilities using the [CVSS v3.1](https://www.first.org/cvss/) scoring framework, with additional weight given to impact on minors and student data.
 
-| Severity | CVSS Score | Example | Reward Range |
-|----------|------------|---------|--------------|
-| Critical | 9.0–10.0 | RCE, mass student PII exposure, full account takeover | $500 – $1,500 USD |
-| High | 7.0–8.9 | Privilege escalation, cross-user data access, auth bypass | $150 – $500 USD |
-| Medium | 4.0–6.9 | Stored XSS, CSRF on sensitive actions, IDOR (limited scope) | $50 – $150 USD |
-| Low | 0.1–3.9 | Reflected XSS (low impact), minor info disclosure | Acknowledgement |
+| Severity | CVSS Score | Example                                                     | Reward Range      |
+| -------- | ---------- | ----------------------------------------------------------- | ----------------- |
+| Critical | 9.0–10.0   | RCE, mass student PII exposure, full account takeover       | $500 – $1,500 USD |
+| High     | 7.0–8.9    | Privilege escalation, cross-user data access, auth bypass   | $150 – $500 USD   |
+| Medium   | 4.0–6.9    | Stored XSS, CSRF on sensitive actions, IDOR (limited scope) | $50 – $150 USD    |
+| Low      | 0.1–3.9    | Reflected XSS (low impact), minor info disclosure           | Acknowledgement   |
 
 > **Note:** Reward amounts are at the discretion of Forward Education and may be adjusted based on quality of report, reproducibility, and actual impact. Payouts are issued during our Fall and Spring sprints (see [Program Schedule](#program-schedule)); Critical-severity reports may be evaluated and rewarded outside of a sprint. Researchers outside Canada and the United States may be subject to additional payment requirements.
 
@@ -132,6 +144,7 @@ If your report contains sensitive technical details, you may request our PGP pub
 MicroChat serves students under the age of 13 in some jurisdictions. Any vulnerability that could expose personally identifiable information (PII) belonging to minors — including names, email addresses, messages, or class associations — will be treated as **Critical severity** regardless of CVSS score.
 
 We comply with:
+
 - **COPPA** (Children's Online Privacy Protection Act)
 - **FERPA** (Family Educational Rights and Privacy Act)
 - **PIPEDA** (Personal Information Protection and Electronic Documents Act)
@@ -143,12 +156,12 @@ We comply with:
 
 We recognize researchers who have made meaningful contributions to MicroChat's security.
 
-| Name |
-|----------|
-| Ananthu J |
-| Saeful Ramadhan |
+| Name                 |
+| -------------------- |
+| Ananthu J            |
+| Saeful Ramadhan      |
 | Vivek Rajendra Udane |
-| Soufiane El Habti |
+| Soufiane El Habti    |
 
 ---
 
