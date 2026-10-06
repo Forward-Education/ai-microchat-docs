@@ -2,12 +2,26 @@
 layout: layouts/changelog.njk
 title: Changelog
 description: Notable changes, improvements, and fixes to MicroChat.
-lastUpdated: 2026-09-29
+lastUpdated: 2026-10-06
 
 permalink: /changelog/
 ---
 
 All notable changes to MicroChat are documented here. The most recent updates appear first.
+
+## 2026-10-06 - Version 2.3.1
+- Added: upgraded AI model
+- Added: added CodeCTRL Apps to the launcher
+- Added: modes share a combined My Sessions page, plus updates to session overview and new session pages
+- Added: added daily animated doodles to the dashboard
+- Added: updated tours and added new ones
+- Added: added a back to dashboard button to the launcher chat
+- Added: Apps mode has optional extensions
+- Added: extension inclusion no longer carries a beta feature warning
+- Added: fixed the workspace not resetting on logout
+- Added: hid sidebar session info on short screens
+- Added: fixed headings to align with accessibility standards
+- Added: improved security
 
 ## 2026-09-29 - Version 2.1.0
 
