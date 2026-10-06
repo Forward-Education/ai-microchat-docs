@@ -78,6 +78,7 @@ The following behaviors are deliberate tradeoffs we have assessed and accepted.
 - Session-wide Rejoin Lockout: Rejoin attempts are tallied across the session. A single session user can trigger a rejoin lockout for the whole session.
 - Non-random Alias List: The alias list for a session is always generated in the same order.
 - Failed Login Insight: It's possible to determine whether an account exists and which login method it uses (Google, Microsoft, or OTP).
+- Access Token Persistence: Logging out does not revoke access tokens. They remain valid until they expire.
 
 ---
 
