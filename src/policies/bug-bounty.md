@@ -79,6 +79,7 @@ The following behaviors are deliberate tradeoffs we have assessed and accepted.
 - Non-random Alias List: The alias list for a session is always generated in the same order.
 - Failed Login Insight: It's possible to determine whether an account exists and which login method it uses (Google, Microsoft, or OTP).
 - Access Token Persistence: Logging out does not revoke access tokens. They remain valid until they expire.
+- Tutorial Builder Credit Usage: Generating content with the tutorial builder does not consume credits.
 
 ---
 
@@ -163,6 +164,8 @@ We recognize researchers who have made meaningful contributions to MicroChat's s
 | Saeful Ramadhan      |
 | Vivek Rajendra Udane |
 | Soufiane El Habti    |
+| waka                 |
+| Kunal Dhumal         |
 
 ---
 
