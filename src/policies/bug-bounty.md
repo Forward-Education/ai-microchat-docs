@@ -1,7 +1,7 @@
 ---
 title: Security & Bug Bounty Program
 description: How to report security vulnerabilities in MicroChat and our responsible disclosure policy.
-lastUpdated: 2026-10-05
+lastUpdated: 2026-10-08
 permalink: /bug-bounty/
 ---
 
@@ -105,6 +105,7 @@ We follow a **coordinated disclosure** model. By participating in this program, 
 1. **Report privately first.** Do not publicly disclose the vulnerability until we have resolved it or 90 days have elapsed, whichever comes first.
 2. **Avoid harm.** Do not access, modify, or delete data that isn't yours. Do not disrupt service availability. Do not interact with real student accounts.
 3. **Use test accounts.** Create your own test accounts for research. Contact us if you need a dedicated test environment.
+   - **Identify your test accounts.** Register each test account with either your bug bounty platform alias (such as `username@wearehackerone.com`, `username@bugcrowdninja.com`, or `username@intigriti.me`) **or** an email address that includes `bugbounty` before the `@` (for example, `yourname+bugbounty@example.com` or `bugbounty.yourname@example.com`). This lets us exclude test accounts from marketing and metrics.
 4. **Act in good faith.** Avoid actions that could be harmful to MicroChat users, especially minors.
 5. **One report per issue.** Submit each unique vulnerability once. Duplicate reports will only be awarded to the first submission.
 
