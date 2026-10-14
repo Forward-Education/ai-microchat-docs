@@ -168,6 +168,7 @@ We recognize researchers who have made meaningful contributions to MicroChat's s
 | waka                 |
 | Kunal Dhumal         |
 | Jack Pas             |
+| SeveraDAO Security   |
 
 ---
 
