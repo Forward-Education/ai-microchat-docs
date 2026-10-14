@@ -167,7 +167,7 @@ We recognize researchers who have made meaningful contributions to MicroChat's s
 | Soufiane El Habti    |
 | waka                 |
 | Kunal Dhumal         |
-| kirasec              |
+| Jack Pas             |
 
 ---
 
