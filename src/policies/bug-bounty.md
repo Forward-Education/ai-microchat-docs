@@ -80,6 +80,7 @@ The following behaviors are deliberate tradeoffs we have assessed and accepted.
 - Failed Login Insight: It's possible to determine whether an account exists and which login method it uses (Google, Microsoft, or OTP).
 - Access Token Persistence: Logging out does not revoke access tokens. They remain valid until they expire.
 - Tutorial Builder Credit Usage: Generating content with the tutorial builder does not consume credits.
+- Credit Accounting: Credits are a tool to monitor usage and detect abuse. They are granted liberally. The primary access gate is time via an account access expiry date. Some examples of credit bugs that could be impactful are abuse that doesn't leave a trail or a user's credits being meaningfully compromised by somebody else. A user simply getting more credit usage than they are supposed to is generally low impact.
 
 ---
 
@@ -105,7 +106,7 @@ We follow a **coordinated disclosure** model. By participating in this program, 
 1. **Report privately first.** Do not publicly disclose the vulnerability until we have resolved it or 90 days have elapsed, whichever comes first.
 2. **Avoid harm.** Do not access, modify, or delete data that isn't yours. Do not disrupt service availability. Do not interact with real student accounts.
 3. **Use test accounts.** Create your own test accounts for research. Contact us if you need a dedicated test environment.
-   - **Identify your test accounts.** Register each test account with either your bug bounty platform alias (such as `username@wearehackerone.com`, `username@bugcrowdninja.com`, or `username@intigriti.me`) **or** an email address that includes `bugbounty` before the `@` (for example, `yourname+bugbounty@example.com` or `bugbounty.yourname@example.com`). This lets us exclude test accounts from marketing and metrics.
+    - **Identify your test accounts.** Register each test account with either your bug bounty platform alias (such as username@wearehackerone.com, username@bugcrowdninja.com, or username@intigriti.me) **or** an email address that includes bugbounty before the @ (for example, yourname+bugbounty@example.com or bugbounty.yourname@example.com). This lets us exclude test accounts from marketing and metrics.
 4. **Act in good faith.** Avoid actions that could be harmful to MicroChat users, especially minors.
 5. **One report per issue.** Submit each unique vulnerability once. Duplicate reports will only be awarded to the first submission.
 
