@@ -171,6 +171,7 @@ We recognize researchers who have made meaningful contributions to MicroChat's s
 | Jack Pas             |
 | SeveraDAO Security   |
 | Mridul Rastogi       |
+| TakiasSec            |
 
 ---
 
