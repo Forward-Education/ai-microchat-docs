@@ -2,7 +2,7 @@
 layout: layouts/changelog.njk
 title: Changelog
 description: Notable changes, improvements, and fixes to MicroChat.
-lastUpdated: 2026-10-09
+lastUpdated: 2026-10-16
 
 permalink: /changelog/
 ---
