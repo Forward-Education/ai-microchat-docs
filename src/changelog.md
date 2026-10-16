@@ -7,7 +7,13 @@ lastUpdated: 2026-10-09
 permalink: /changelog/
 ---
 
-All notable changes to MicroChat are documented here. The most recent updates appear first.
+## 2026-10-19 - Version 2.4.2
+- Added: user avatars made from initials, moved account link from sidebar to topbar
+- Added: the account page shows the access expiry date, is centered and has account controls
+- Added: new chat layout for narrow screens
+- Added: teachers can expand hidden text in user messages, for example in the explain code prompt
+- Fixed: web type appearance in my chats table
+- Added: improved security
 
 ## 2026-10-09 - Version 2.4.0
 - Added: Web chat mode, builds web interfaces that receive micro:bit data
