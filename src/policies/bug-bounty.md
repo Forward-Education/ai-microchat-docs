@@ -122,6 +122,8 @@ We commit to:
 
 ## How to Report
 
+Email attachments will not be opened. Report details should be included in the body of the email.
+
 Send your report to:
 
 **devops@forwardedu.com**
@@ -133,7 +135,7 @@ A strong report includes:
 - **Summary** — A concise description of the vulnerability
 - **Affected URL / endpoint** — Exact location of the issue
 - **Steps to Reproduce** — Clear, numbered steps a reader can follow
-- **Proof of Concept** — Screenshots, screen recordings, or a working PoC (no live exploits against production data)
+- **Proof of Concept** — A working PoC, or links to screenshots or screen recordings, included in the email body (no live exploits against production data)
 - **Impact Assessment** — What could an attacker achieve? Who is affected?
 - **Suggested Fix** (optional, but appreciated)
 
