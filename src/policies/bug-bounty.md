@@ -60,6 +60,7 @@ The following are **not** eligible for rewards and may result in disqualificatio
 
 - Denial of Service (DoS/DDoS) attacks
 - Spam or social engineering attacks
+- Phishing that's hosted outside of microchat.co domains, such as mimicry or embedding, unless it exploits a flaw in MicroChat itself (e.g. an open redirect or clickjacking that performs an action in the user's account)
 - Physical security issues
 - Vulnerabilities in third-party services or libraries (report those upstream)
 - Issues requiring unlikely user interaction (e.g., self-XSS)
