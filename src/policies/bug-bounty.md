@@ -164,19 +164,19 @@ We comply with:
 
 We recognize researchers who have made meaningful contributions to MicroChat's security.
 
-| Name                 |
-| -------------------- |
-| Ananthu J            |
-| Saeful Ramadhan      |
-| Vivek Rajendra Udane |
-| Soufiane El Habti    |
-| waka                 |
-| Kunal Dhumal         |
-| Jack Pas             |
-| SeveraDAO Security   |
-| Mridul Rastogi       |
-| TakiasSec            |
-| QAST Consultants     |
+| Name                  |
+| --------------------- |
+| Ananthu J             |
+| Saeful Ramadhan       |
+| Vivek Rajendra Udane  |
+| Soufiane El Habti     |
+| waka                  |
+| Kunal Dhumal          |
+| Jack Pas              |
+| SeveraDAO Security    |
+| Mridul Rastogi        |
+| TakiasSec             |
+| Muhib Saleem (imwdev) |
 
 ---
 
