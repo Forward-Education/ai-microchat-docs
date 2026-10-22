@@ -1,7 +1,7 @@
 ---
 title: Security & Bug Bounty Program
 description: How to report security vulnerabilities in MicroChat and our responsible disclosure policy.
-lastUpdated: 2026-10-08
+lastUpdated: 2026-10-22
 permalink: /bug-bounty/
 ---
 
@@ -80,6 +80,7 @@ The following behaviors are deliberate tradeoffs we have assessed and accepted.
 - Failed Login Insight: It's possible to determine whether an account exists and which login method it uses (Google, Microsoft, or OTP).
 - Access Token Persistence: Logging out does not revoke access tokens. They remain valid until they expire.
 - Tutorial Builder Credit Usage: Generating content with the tutorial builder does not consume credits.
+- Generic Authentication Responses: Reports should be based on user outcomes, not the HTTP response. Authentication endpoints give the same response for different internal outcomes. Do not assume a 201 means the request was successful.
 - Credit Accounting: Credits are a tool to monitor usage and detect abuse. They are granted liberally. The primary access gate is time via an account access expiry date. Some examples of credit bugs that could be impactful are abuse that doesn't leave a trail or a user's credits being meaningfully compromised by somebody else. A user simply getting more credit usage than they are supposed to is generally low impact.
 
 ---
@@ -174,6 +175,7 @@ We recognize researchers who have made meaningful contributions to MicroChat's s
 | SeveraDAO Security   |
 | Mridul Rastogi       |
 | TakiasSec            |
+| QAST Consultants     |
 
 ---
 
