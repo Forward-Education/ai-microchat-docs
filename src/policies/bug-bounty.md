@@ -144,7 +144,7 @@ A strong report includes:
 
 ### Report Quality
 
-We expect reports to be verified before they are sent. In particular, we expect a low rate of false positives. Verify the outcome with actual user experience outcomes where possible (i.e. confirm an email was sent, not just ready the 201) and cross-check against [Intentional Design Decisions](#intentional-design-decisions).
+We expect reports to be verified before they are sent. In particular, we expect a low rate of false positives. Verify the outcome with actual user experience outcomes where possible (i.e. confirm an email was sent, not just assume based on 201) and cross-check against [Intentional Design Decisions](#intentional-design-decisions).
 
 **If a researcher repeatedly submits reports that do not meet these expectations, we may decline to review future reports from that researcher.**
 
