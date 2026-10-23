@@ -178,6 +178,7 @@ We recognize researchers who have made meaningful contributions to MicroChat's s
 | Mridul Rastogi        |
 | TakiasSec             |
 | Muhib Saleem (imwdev) |
+| Rohan Agarwal         |
 
 ---
 
