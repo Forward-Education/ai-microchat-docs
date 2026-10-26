@@ -185,6 +185,7 @@ We recognize researchers who have made meaningful contributions to MicroChat's s
 | TakiasSec             |
 | Muhib Saleem (imwdev) |
 | Rohan Agarwal         |
+| Qasim Lawal           |
 
 ---
 
