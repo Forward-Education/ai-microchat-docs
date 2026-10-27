@@ -191,6 +191,7 @@ We recognize researchers who have made meaningful contributions to MicroChat's s
 | Cyber_Subhash         |
 | MD RAISUL ALAM RATUL  |
 | Bajinder Kumar        |
+| Ebrahim Mohammed      |
 
 ---
 
