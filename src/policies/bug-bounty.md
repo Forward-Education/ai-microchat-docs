@@ -85,6 +85,7 @@ The following behaviors are deliberate tradeoffs we have assessed and accepted.
 - Credit Accounting: Credits are a tool to monitor usage and detect abuse. They are granted liberally. The primary access gate is time via an account access expiry date. Some examples of credit bugs that could be impactful are abuse that doesn't leave a trail or a user's credits being meaningfully compromised by somebody else. A user simply getting more credit usage than they are supposed to is generally low impact.
 - Session Manager Messaging: Session managers can send messages in session users' chats.
 - Delayed PII Redaction: PII scanning and redaction is applied to messages once they pass an age threshold, not at the time they are sent. The threshold at the time of writing is 24 hours. To see redaction, wait 25 hours after message creation.
+- Unauthenticated Services: The guided-chats and custom-pages services are for marketing purposes and allow unauthenticated access.
 
 ---
 
