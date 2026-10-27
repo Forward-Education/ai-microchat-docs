@@ -193,6 +193,7 @@ We recognize researchers who have made meaningful contributions to MicroChat's s
 | Bajinder Kumar        |
 | Ebrahim Mohammed      |
 | VanSecQA              |
+| RURUHO                |
 
 ---
 
