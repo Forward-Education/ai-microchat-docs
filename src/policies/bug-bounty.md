@@ -192,6 +192,7 @@ We recognize researchers who have made meaningful contributions to MicroChat's s
 | MD RAISUL ALAM RATUL  |
 | Bajinder Kumar        |
 | Ebrahim Mohammed      |
+| VanSecQA              |
 
 ---
 
