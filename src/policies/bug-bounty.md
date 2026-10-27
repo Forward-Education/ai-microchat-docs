@@ -189,6 +189,7 @@ We recognize researchers who have made meaningful contributions to MicroChat's s
 | Rohan Agarwal         |
 | Qasim Lawal           |
 | Cyber_Subhash         |
+| MD RAISUL ALAM RATUL  |
 
 ---
 
