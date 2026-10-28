@@ -75,7 +75,7 @@ The following are **not** eligible for rewards and may result in disqualificatio
 
 The following behaviors are deliberate tradeoffs we have assessed and accepted.
 
-- Shared Rejoin Code: All session users for a given session have the same rejoin code. Do not report that the rejoin code can be used to authenticate with any alias.
+- Shared Rejoin Code: All session users for a given session have the same rejoin code. The rejoin code is administered at the discretion of the session manager and can lead to more than one person using a given chat, with or without permission. This is an intentional decision prioritizing user convenience. It accepts some risk of misuse within the session, such as impersonation, and relies on the combined join and rejoin codes as reasonable protection against external abuse.
 - Session-wide Rejoin Lockout: Rejoin attempts are tallied across the session. A single session user can trigger a rejoin lockout for the whole session.
 - Non-random Alias List: The alias list for a session is always generated in the same order.
 - Failed Login Insight: It's possible to determine whether an account exists and which login method it uses (Google, Microsoft, or OTP).
