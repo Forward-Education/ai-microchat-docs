@@ -2,10 +2,21 @@
 layout: layouts/changelog.njk
 title: Changelog
 description: Notable changes, improvements, and fixes to MicroChat.
-lastUpdated: 2026-10-16
+lastUpdated: 2026-10-29
 
 permalink: /changelog/
 ---
+
+## 2026-10-29 - Version 2.4.3
+
+- Changed: messages a teacher sends in a student's session chat are labelled "Sent by Session Administrator"
+- Changed: replaced the beta feedback message with separate messages for running out of credits and expired access
+- Added: set up a distinct message for session users whose session manager's access has expired
+- Changed: generated programs that fail to compile show an accurate error message and the failure is tracked
+- Changed: the tutorial generator tells students to connect modules through the Breakout Board and to charge and switch it on
+- Changed: session overview shows how many times each rejoin code was used, the last message column was removed, and the table is sorted by alias alphabetically
+- Changed: chat title generation avoids personal information
+- Added: improved security
 
 ## 2026-10-19 - Version 2.4.2
 - Added: user avatars made from initials, moved account link from sidebar to topbar
