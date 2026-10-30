@@ -2,10 +2,18 @@
 layout: layouts/changelog.njk
 title: Changelog
 description: Notable changes, improvements, and fixes to MicroChat.
-lastUpdated: 2026-10-29
+lastUpdated: 2026-10-30
 
 permalink: /changelog/
 ---
+
+## 2026-10-30 - Version 2.4.4
+
+- Changed: generated web pages get default styling, a choice of 3 alternative style presets, and a "Made with MicroChat" footer
+- Changed: generated web pages can use images from a curated image library
+- Fixed: program generation for servos
+- Fixed: joining an inactive session shows a clearer error message
+- Added: added a tooltip with best practices for rejoin code administration
 
 ## 2026-10-29 - Version 2.4.3
 
