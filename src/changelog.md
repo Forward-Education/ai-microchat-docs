@@ -2,10 +2,25 @@
 layout: layouts/changelog.njk
 title: Changelog
 description: Notable changes, improvements, and fixes to MicroChat.
-lastUpdated: 2026-10-30
+lastUpdated: 2026-11-12
 
 permalink: /changelog/
 ---
+
+## 2026-11-12 - Version 2.6.0
+
+- Changed: launcher can create chats with extensions already turned on
+- Added: session invite links autofill the join code and can be shared as a QR code
+- Added: problematic messages are detected and flagged for session manager review
+- Added: session overview shows each user's join time and message count
+- Added: session overview has a session activity panel
+- Fixed: in-progress message requests can be cancelled
+- Fixed: web page footer text matches the selected style preset
+- Fixed: fixed extra whitespace at the bottom of tables
+- Changed: updated to the latest version of fwd-all-blocks extension
+- Added: admins can mark users as bug bounty testers and soft delete users
+- Added: users can choose which extensions are included, and the OpenSciEd extension was added to chats and the tutorial builder
+- Fixed: the tutorial builder page stretching and scrolling while a draft preview is prepared
 
 ## 2026-10-30 - Version 2.4.4
 
