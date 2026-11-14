@@ -528,16 +528,8 @@ a:hover {
 .site-footer {
   background: var(--color-bg-offwhite);
   border-top: 1px solid var(--color-border);
-  padding-block: var(--space-8);
+  padding-block: var(--space-6);
   margin-top: var(--space-12);
-}
-
-.site-footer .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: var(--space-4);
-  flex-wrap: wrap;
 }
 
 .site-footer p {
@@ -555,6 +547,15 @@ a:hover {
   text-decoration: underline;
 }
 
+.site-footer__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+  padding-bottom: var(--space-5);
+}
+
 .site-footer__trust {
   display: flex;
   align-items: center;
@@ -564,12 +565,38 @@ a:hover {
 .site-footer__seal {
   display: block;
   flex-shrink: 0;
+  line-height: 0;
 }
 
 .site-footer__seal img {
   display: block;
-  width: 64px;
+  width: 56px;
   height: auto;
+}
+
+.site-footer__trust-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: var(--text-sm);
+}
+
+.site-footer p.site-footer__trust-title {
+  color: var(--color-text-muted);
+  font-weight: var(--fw-medium);
+}
+
+.site-footer__app {
+  font-size: var(--text-sm);
+}
+
+.site-footer__bottom {
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--space-4);
+}
+
+.site-footer__bottom p {
+  font-size: var(--text-xs);
 }
 
 /* ============================================================
@@ -586,7 +613,7 @@ a:hover {
     font-size: var(--text-2xl);
   }
 
-  .site-footer .container {
+  .site-footer__top {
     flex-direction: column;
     align-items: flex-start;
   }
