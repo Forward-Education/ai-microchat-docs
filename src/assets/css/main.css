@@ -555,6 +555,23 @@ a:hover {
   text-decoration: underline;
 }
 
+.site-footer__trust {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.site-footer__seal {
+  display: block;
+  flex-shrink: 0;
+}
+
+.site-footer__seal img {
+  display: block;
+  width: 64px;
+  height: auto;
+}
+
 /* ============================================================
    RESPONSIVE
    ============================================================ */
