@@ -63,6 +63,15 @@ Add `docs.microchat.co` in the DigitalOcean App Platform → **Settings → Doma
 docs  CNAME  <your-do-app>.ondigitalocean.app
 ```
 
+## SOC 2 seal
+
+The footer on every page shows the AICPA SOC 2 seal (`src/assets/img/soc2-seal.png`) and a link to the Forward Education Trust Center (`site.trustUrl` in `src/_data/site.js`). AICPA's logo guidelines (April 2026) set these rules:
+
+- The seal must link to `https://www.aicpa.org/soc4so` (`site.soc2LogoUrl`). Do not point it at the Trust Center; that link sits next to it.
+- The seal may be resized but not altered in any other way (no recolouring or cropping).
+- It may only be shown for 12 months after the SOC 2 report date. Replace or remove it if no new report is issued.
+- Never describe SOC 2 as a "certification" or say "SOC 2 certified/compliant". Say the examination was completed or the report was received.
+
 ## Styling
 
 Styles are in [`src/assets/css/main.css`](src/assets/css/main.css). Design tokens (colors, fonts, spacing) are defined as CSS custom properties in `:root` at the top of the file — update them there to restyle the entire site.

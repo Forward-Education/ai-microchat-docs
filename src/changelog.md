@@ -2,10 +2,20 @@
 layout: layouts/changelog.njk
 title: Changelog
 description: Notable changes, improvements, and fixes to MicroChat.
-lastUpdated: 2026-11-12
+lastUpdated: 2026-11-24
 
 permalink: /changelog/
 ---
+
+## 2026-11-24 - Version 2.7.0
+
+- Added: chat shows prompt suggestions, optional for for session chats
+- Added: session chats lock and unlock in real time based on session status and credit balance
+- Added: accessibility improvements
+- Fixed: prompt via query param persistence
+- Fixed: stale content when switching between session user's chat
+- Changed: hex files are deleted after 24 hours
+- Fixed: various fixes
 
 ## 2026-11-12 - Version 2.6.0
 
