@@ -17,7 +17,7 @@ Please read this policy carefully. If you disagree with its terms, please discon
 
 This notice is provided in accordance with the *Municipal Freedom of Information and Protection of Privacy Act* (MFIPPA) and, where applicable, the *Freedom of Information and Protection of Privacy Act* (FIPPA).
 
-- **What we collect:** Account identifiers (name, role, email or username), messages and content you submit, and technical/usage data (see [Information We Collect](#information-we-collect)).
+- **What we collect:** Account identifiers (name, role, email or username), messages and content you submit, and technical/usage data (see [Information We Collect](#information-we-collect)).  Students do not create accounts. They join sessions under an alias, and MicroChat does not collect personally identifiable information (PII).
 - **Legal authority for collection:** Personal information is collected under the authority of the *Education Act* and the School's authority to operate educational programs, and is used by the School for educational purposes. MicroChat collects this information on the School's behalf.
 - **Purpose of collection:** To provide and operate the MicroChat educational communication platform, to support teaching and learning, and to maintain the security and integrity of the service.
 - **Questions about this collection** may be directed to your School's privacy office, or to MicroChat using the [contact details](#contact-us) at the end of this policy.
@@ -33,7 +33,7 @@ We may collect information you voluntarily provide when you:
 - Contact us for support
 - Respond to surveys or communications
 
-This may include your name, email address or username, role (student, educator, administrator), class or group association, and any content you submit through the platform.
+This may include your name, email address or username, role (educator or administrator), class or group association, and any content you submit through the platform.  Students do not create accounts. They join sessions under an alias, and MicroChat does not collect student names, emails or other personally identifiable information (PII).
 
 ### Information Collected Automatically
 
