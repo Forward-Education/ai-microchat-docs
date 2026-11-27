@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 description: How MicroChat collects, uses, and protects your personal information.
-lastUpdated: 2026-07-09
+lastUpdated: 2026-11-27
 permalink: /privacy-policy/
 ---
 
